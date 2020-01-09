@@ -1,3 +1,11 @@
+
+# BaseLine - dashboard web application
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/2a9cbba7a9bf39175f27/maintainability)](https://codeclimate.com/repos/5e17b64f4c219300b10005c1/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/2a9cbba7a9bf39175f27/test_coverage)](https://codeclimate.com/repos/5e17b64f4c219300b10005c1/test_coverage)
+
+
+BaseLine - a seed project for fullstack test driven development with Typescript
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
