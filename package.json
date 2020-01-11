@@ -20,7 +20,9 @@
     "build": "react-scripts build",
     "test": "CI=true react-scripts test --env=jsdom",
     "test:coverage": "CI=true npm test -- --coverage",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls"
+
   },
   "eslintConfig": {
     "extends": "react-app"
