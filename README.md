@@ -1,7 +1,7 @@
 
 # BaseLine - dashboard web application
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/2a9cbba7a9bf39175f27/maintainability)](https://codeclimate.com/repos/5e17b64f4c219300b10005c1/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/2a9cbba7a9bf39175f27/test_coverage)](https://codeclimate.com/repos/5e17b64f4c219300b10005c1/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/2a9cbba7a9bf39175f27/maintainability)](https://codeclimate.com/repos/5e17b64f4c219300b10005c1/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/2a9cbba7a9bf39175f27/test_coverage)](https://codeclimate.com/repos/5e17b64f4c219300b10005c1/test_coverage) [![Build Status](https://travis-ci.com/vlad-ovsyannikov/dashboard-web.svg?branch=master)](https://travis-ci.com/vlad-ovsyannikov/dashboard-web)
 
 
 BaseLine - a seed project for fullstack test driven development with Typescript
@@ -50,3 +50,18 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## CI/CD with Travis and heroku
+
+### Install Travis and Heroku
+
+https://github.com/travis-ci/travis.rb#installation
+https://devcenter.heroku.com/articles/heroku-cli#download-and-install
+
+- Check installation:
+`travis version`, 
+`heroku version`
+- Generate key:
+`travis encrypt $(heroku auth:token) --add deploy.api_key --pro`
+- Setup deploy
+`travis setup heroku`

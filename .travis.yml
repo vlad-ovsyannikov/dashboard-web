@@ -1,9 +1,17 @@
 language: node_js
 node_js:
-  - "stable"
+- stable
 cache:
   directories:
   - node_modules
 script:
-  - npm test
-  - npm run build
+- npm test
+- npm run test:coverage
+- npm run build
+deploy:
+  provider: heroku
+  api_key:
+    secure: ZpCUzv5JYHB1lSrGkNYUji+f/m546b0cWKvIijdURw8PEpdOJQX880iYPGtwI4leyDQHq5F3yiz0zNgw4jm83y4MlfMQESaVtXHEyAG7WV7GfybmPyDE53xL43MIrZO9KFFWtZMcoYWDS+0apFsBx50yCAzXA11OHpNxdM5y8wndPOSTThak0CxH6HQnirjvm6HWqLcBLo79XsZzfsptbcIGzWfTSiW1qLk5vDkSVxO2k3NtS8vceJJp4RoyeFYS+/JtaGHVUn8ugPc11zczNNqgNLAFnx0ZYhIfIqO2mkj+NJ77/hUh+zU5XPjH18TfsnHdAs696OPXUQQH+zzLJuia/F0lBeNmaBU0fkcnLQjtQ3guGik8z6QnpEJPvcr1EhWq3S1hES10cpwC2F0R/mUZstSzu5cEthAq1Mgqrm7P/KoNcnQ7IpUlTR8af/qbwQ0I2QF0ip11ezA0wR9sb+vnIhRKOlbVjTgSI/RYGdzxG7duNdZs/99X3pmstRsZzBwyJ0RR5/Tbo79quABw9HEGupVKWwkpCUAzWT08hhuPuFBtZk7nr4OVCgT0rn4IvOyRGAAhekwNdTJKHgbRdbVRVrxSPS7tnOrY6ObRwtEQnsvsi3+OLuW9SqX8rmmuYhpjawGCXcWLMB2Yq6spZIM42d78AyLIh6gpyxel2Xw=
+  app: dashboard-web
+  on:
+    repo: vlad-ovsyannikov/dashboard-web
