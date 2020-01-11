@@ -1,7 +1,8 @@
 
 # BaseLine - dashboard web application
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/2a9cbba7a9bf39175f27/maintainability)](https://codeclimate.com/repos/5e17b64f4c219300b10005c1/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/2a9cbba7a9bf39175f27/test_coverage)](https://codeclimate.com/repos/5e17b64f4c219300b10005c1/test_coverage) [![Build Status](https://travis-ci.com/vlad-ovsyannikov/dashboard-web.svg?branch=master)](https://travis-ci.com/vlad-ovsyannikov/dashboard-web)
+[![Maintainability](https://api.codeclimate.com/v1/badges/2a9cbba7a9bf39175f27/maintainability)](https://codeclimate.com/repos/5e17b64f4c219300b10005c1/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/2a9cbba7a9bf39175f27/test_coverage)](https://codeclimate.com/repos/5e17b64f4c219300b10005c1/test_coverage) [![Build Status](https://travis-ci.com/vlad-ovsyannikov/dashboard-web.svg?branch=master)](https://travis-ci.com/vlad-ovsyannikov/dashboard-web) [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://baseline-dashboard-web.herokuapp.com/)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
 
 BaseLine - a seed project for fullstack test driven development with Typescript
